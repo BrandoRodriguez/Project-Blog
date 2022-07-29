@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .blog-section {
+    position: relative;
+    padding: 102px 0 120px;
+    overflow: hidden;
+    background: #141519 url(./img/project-bg.jpg) no-repeat center center/cover;
+    padding: 200px 15px 200px;
+  }
+  
+  .single-blog {
+    background: #26272a;
+    width: 100%;
+  }
+  
+  .single-blog .featured-img img {
+    width: 100%;
+    opacity: 0.6;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: all 0.5s ease;
+  }
+  
+  .single-blog:hover .featured-img img {
+    opacity: 1;
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+  }
+  
+  .single-blog .date {
+    background: #f43534;
+    display: block;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    z-index: 1;
+    padding: 8px 12px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1.2rem;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .single-blog .date small {
+    display: block;
+    line-height: normal;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  
+  .single-blog .post-title {
+    padding: 24px 20px 50px;
+    text-align: left;
+  }
+  
+  .single-blog .post-title h3 {
+    font-size: 17px;
+  }
+  
+  .single-blog .post-title h3 a:hover {
+    color: #f43534;
+  }
+  
+  .single-blog .like-comment {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    border-top: 1px solid #35373d;
+    position: relative;
+  }
+  
+  .single-blog .like-comment .read-more:hover {
+    background: #f43534;
+    border-color: #f43534;
+  }
+  
+  .single-blog .like-comment .read-more {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #35373d;
+    display: flex;
+    border-radius: 100%;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -26px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #26272a;
+  }
+  
+  .single-blog .like-comment span {
+    color: #8b8a8a;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+  }
+  
+  .single-blog .like-comment span svg {
+    height: 18px;
+    margin-right: 8px;
+  }
+  
