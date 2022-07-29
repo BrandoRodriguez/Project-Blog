@@ -75,6 +75,11 @@ a {
     background-color: rgba(20, 21, 25, 0.90);
 }
 
+.blog-wrapper {
+    position: relative;
+    z-index: 2;
+}
+
 /* CARD DE UN ARTICULO */
 .single-blog {
     background: #26272a;
@@ -191,8 +196,6 @@ a {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
-        position: relative;
-        z-index: 2;
     }
 
     .single-blog {
