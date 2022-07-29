@@ -23,6 +23,7 @@
   .single-blog {
     background: #26272a;
     width: 100%;
+    margin-bottom: 20px;
   }
   
   .single-blog .featured-img img {
